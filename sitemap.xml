@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dddanbo.github.io/friends/index.html</loc>
+    
+    <lastmod>2019-02-15T16:52:40.804Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dddanbo.github.io/about/index.html</loc>
+    
+    <lastmod>2019-02-15T16:51:29.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dddanbo.github.io/tags/index.html</loc>
+    
+    <lastmod>2019-02-15T16:49:53.952Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dddanbo.github.io/categories/index.html</loc>
     
-    <lastmod>2019-02-15T16:11:06.519Z</lastmod>
+    <lastmod>2019-02-15T16:47:54.407Z</lastmod>
     
   </url>
   
