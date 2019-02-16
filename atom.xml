@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dddanbo.github.io/"/>
-  <updated>2019-02-16T14:52:11.108Z</updated>
+  <updated>2019-02-16T15:57:51.284Z</updated>
   <id>https://dddanbo.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://dddanbo.github.io/2019/02/16/bao-li-pi-pei-suan-fa/"/>
-    <id>https://dddanbo.github.io/2019/02/16/bao-li-pi-pei-suan-fa/</id>
-    <published>2019-02-16T14:52:11.017Z</published>
-    <updated>2019-02-16T14:52:11.108Z</updated>
+    <title>Typora For Markdown 语法</title>
+    <link href="https://dddanbo.github.io/2019/02/16/typora-for-markdown-yu-fa/"/>
+    <id>https://dddanbo.github.io/2019/02/16/typora-for-markdown-yu-fa/</id>
+    <published>2019-02-16T15:57:19.000Z</published>
+    <updated>2019-02-16T15:57:51.284Z</updated>
     
     <summary type="html">
     
@@ -29,36 +29,14 @@
       
         
         
-          &lt;h3 id=&quot;2-暴力匹配算法&quot;&gt;&lt;a href=&quot;#2-暴力匹配算法&quot; class=&quot;headerlink&quot; title=&quot;2. 暴力匹配算法&quot;&gt;&lt;/a&gt;2.
+          &lt;p&gt;#Typora For Markdown
         
       
     
     </summary>
     
     
-  </entry>
-  
-  <entry>
-    <title>text</title>
-    <link href="https://dddanbo.github.io/2019/02/16/text/"/>
-    <id>https://dddanbo.github.io/2019/02/16/text/</id>
-    <published>2019-02-16T14:47:19.000Z</published>
-    <updated>2019-02-16T14:49:20.501Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;2-暴力匹配算法&quot;&gt;&lt;a href=&quot;#2-暴力匹配算法&quot; class=&quot;headerlink&quot; title=&quot;2. 暴力匹配算法&quot;&gt;&lt;/a&gt;2.
-        
-      
-    
-    </summary>
-    
-    
-      <category term="wechat" scheme="https://dddanbo.github.io/tags/wechat/"/>
+      <category term="前端" scheme="https://dddanbo.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
