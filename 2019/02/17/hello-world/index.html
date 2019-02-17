@@ -745,7 +745,7 @@
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3'
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -757,7 +757,7 @@
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -789,7 +789,7 @@
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">1.5k</span>
+                <span class="white-color">1.4k</span>
             
 
             
