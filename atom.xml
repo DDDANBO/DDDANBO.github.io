@@ -10,7 +10,7 @@
   <id>https://dddanbo.github.io/</id>
   
   <author>
-    <name>DANBO</name>
+    <name>DDDANBO</name>
     
   </author>
   
@@ -61,6 +61,24 @@
     
     
       <category term="前端" scheme="https://dddanbo.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>text</title>
+    <link href="https://dddanbo.github.io/2019/02/16/text/"/>
+    <id>https://dddanbo.github.io/2019/02/16/text/</id>
+    <published>2019-02-16T14:47:19.000Z</published>
+    <updated>2019-02-17T06:38:44.467Z</updated>
+    
+    <summary type="html">
+    
+      Welcome to my blog, enter password to read.
+    
+    </summary>
+    
+    
+      <category term="wechat" scheme="https://dddanbo.github.io/tags/wechat/"/>
     
   </entry>
   
