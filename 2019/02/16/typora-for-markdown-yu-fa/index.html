@@ -463,19 +463,29 @@
 <h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ul>
 <li>使用`包裹的内容将会以代码样式显示，例如</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用`printf()`</span><br></pre></td></tr></table></figure>
-<p>则会产生<code>printf()</code>样式。</p>
+<pre><code>使用`printf()`
+</code></pre><p>则会产生<code>printf()</code>样式。</p>
 <ul>
-<li><p>输入`<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">*</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> Class HelloWorld&#123;</span><br><span class="line">  System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">将会产生</span><br><span class="line"></span><br><span class="line">~~~java</span><br><span class="line">public Class HelloWorld&#123;</span><br><span class="line">  System.out.println(&quot;Hello World!&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li><p>输入<code>~~~</code>或者<code>`</code>然后回车，可以输入代码块，并且可以选择代码的语言。例如：</p>
+</li>
+<li><pre><code>```java
+public Class HelloWorld{
+  System.out.println(&quot;Hello World!&quot;);
+}
+```
+</code></pre><p>将会产生</p>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> Class <span class="token class-name">HelloWorld</span><span class="token punctuation">{</span>
+  System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
 <h3 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h3><p>使用两个*号或者两个_包裹的内容将会被强调。例如</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">**使用两个*号强调内容**</span><br><span class="line">__使用两个下划线强调内容__</span><br></pre></td></tr></table></figure>
-<p>将会输出</p>
+<pre><code>**使用两个*号强调内容**
+__使用两个下划线强调内容__
+</code></pre><p>将会输出</p>
 <p><strong>使用两个*号强调内容</strong><br><strong>使用两个下划线强调内容</strong><br>Typroa 推荐使用两个*号。</p>
 <h3 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h3><p>在标准的Markdown语法中，*和_包裹的内容会是斜体显示，但是GFM下划线一般用来分隔人名和代码变量名，因此我们推荐是用星号来包裹斜体内容。如果要显示星号，则使用转义：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\*</span><br></pre></td></tr></table></figure>
-<h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p>我们可以通过拖拉的方式，将本地文件夹中的图片或者网络上的图片插入。</p>
+<pre><code>\*
+</code></pre><h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p>我们可以通过拖拉的方式，将本地文件夹中的图片或者网络上的图片插入。</p>
 <p><img src="http://typora.io/img/drag-img.gif" alt="drag and drop image"></p>
 <p>​</p>
 <p>​</p>
@@ -487,12 +497,17 @@
 <h3 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h3><p>使用<code>***</code>或者<code>---</code>，然后回车，来产生水平分割线。</p>
 <hr>
 <h3 id="标注"><a href="#标注" class="headerlink" title="标注"></a>标注</h3><p>我们可以对某一个词语进行标注。例如</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">某些人用过了才知道[^注释]</span><br><span class="line">[^注释]:Somebody that I used to know.</span><br></pre></td></tr></table></figure>
-<p>将产生：</p>
+<pre><code>某些人用过了才知道[^注释]
+[^注释]:Somebody that I used to know.
+</code></pre><p>将产生：</p>
 <p>某些人用过了才知道[^注释]<br>[^注释]: Somebody that I used to know.</p>
 <p>把鼠标放在<code>注释</code>上，将会有提示内容。</p>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">|姓名|性别|毕业学校|工资|</span><br><span class="line">|:---|:---:|:---:|---:|</span><br><span class="line">|杨洋|男|重庆交通大学|3200|</span><br><span class="line">|峰哥|男|贵州大学|5000|</span><br><span class="line">|坑货|女|北京大学|2000|</span><br></pre></td></tr></table></figure>
-<p>将产生:</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><pre><code>|姓名|性别|毕业学校|工资|
+|:---|:---:|:---:|---:|
+|杨洋|男|重庆交通大学|3200|
+|峰哥|男|贵州大学|5000|
+|坑货|女|北京大学|2000|
+</code></pre><p>将产生:</p>
 <table>
 <thead>
 <tr>
@@ -525,12 +540,14 @@
 </table>
 <p>其中代码的第二行指定对齐的方式，第一个是左对齐，第二个和第三个是居中，最后一个是右对齐。</p>
 <h3 id="数学表达式块"><a href="#数学表达式块" class="headerlink" title="数学表达式块"></a>数学表达式块</h3><p>输入两个美元符号，然后回车，就可以输入数学表达式块了。例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$\mathbf&#123;V&#125;_1 \times \mathbf&#123;V&#125;_2 =  \begin&#123;vmatrix&#125; \mathbf&#123;i&#125; &amp; \mathbf&#123;j&#125; &amp; \mathbf&#123;k&#125; \\\frac&#123;\partial X&#125;&#123;\partial u&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial u&#125; &amp; 0 \\\frac&#123;\partial X&#125;&#123;\partial v&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial v&#125; &amp; 0 \\\end&#123;vmatrix&#125;$$</span><br></pre></td></tr></table></figure>
-<p>将会产生:</p>
+<pre><code> $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\\end{vmatrix}$$
+</code></pre><p>将会产生:</p>
 <p> $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\end{vmatrix}​$$</p>
 <h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><p>使用如下的代码创建任务列表，在[]中输入x表示完成，也可以通过点击选择完成或者没完成。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- [ ] 吃饭</span><br><span class="line">- [ ] 逛街</span><br><span class="line">- [ ] 看电影</span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>- [ ] 吃饭
+- [ ] 逛街
+- [ ] 看电影
+</code></pre><ul>
 <li><p>[x] 吃饭</p>
 <pre><code>​
 </code></pre></li>
@@ -540,23 +557,29 @@
 <li style="list-style: none"><input type="checkbox" checked> 看电影</li>
 </ul>
 <h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>输入+, -, *,创建无序的列表，使用任意数字开头，创建有序列表，例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**无序的列表**</span><br><span class="line">* tfboys</span><br><span class="line">* 杨洋</span><br><span class="line">* 我爱你</span><br></pre></td></tr></table></figure>
-<p><strong>无序的列表</strong></p>
+<pre><code>**无序的列表**
+* tfboys
+* 杨洋
+* 我爱你
+</code></pre><p><strong>无序的列表</strong></p>
 <ul>
 <li>tfboys</li>
 <li>杨洋</li>
 <li>我爱你</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**有序的列表**</span><br><span class="line">1. 苹果</span><br><span class="line">6. 香蕉</span><br><span class="line">10. 我都不喜欢</span><br></pre></td></tr></table></figure>
-<p><strong>有序的列表</strong></p>
+<pre><code>**有序的列表**
+1. 苹果
+6. 香蕉
+10. 我都不喜欢
+</code></pre><p><strong>有序的列表</strong></p>
 <ol>
 <li>苹果</li>
 <li>香蕉</li>
 <li>我都不喜欢</li>
 </ol>
 <h3 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h3><p>使用&gt;来插入块引用。例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;这是一个块引用！</span><br></pre></td></tr></table></figure>
-<p>将产生：</p>
+<pre><code>&gt;这是一个块引用！
+</code></pre><p>将产生：</p>
 <blockquote>
 <p>这是一个块引用！</p>
 </blockquote>
@@ -899,7 +922,7 @@ U2FsdGVkX19</div>
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">1.6k</span>
+                <span class="white-color">1.4k</span>
             
 
             
