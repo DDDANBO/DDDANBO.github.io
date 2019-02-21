@@ -34,6 +34,9 @@ U2FsdGVkX19">
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
@@ -312,38 +315,17 @@ U2FsdGVkX19">
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -803,6 +785,8 @@ U2FsdGVkX19</div>
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
             headingSelector: 'h2, h3, h4'
         });
 
