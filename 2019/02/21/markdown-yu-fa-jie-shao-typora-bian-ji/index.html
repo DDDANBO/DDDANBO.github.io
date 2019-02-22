@@ -5,11 +5,13 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
     <meta name="keywords" content="Markdown 语法介绍 Typora 编辑, 糙皮大叔">
-    <meta name="description" content="Markdown 语法介绍 (Typora 编辑)[TOC]
+    <meta name="description" content="Markdown 语法介绍 (Typora 编辑)
+注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示
+
+[TOC]
 
 参考资料：
-https://ouweiya.gitbooks.io/markdown/index.html
-https://www.jianshu.com/p/b03a8d7b">
+https://ouweiya.gitbooks.io/markdown/index.ht">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -420,14 +422,14 @@ https://www.jianshu.com/p/b03a8d7b">
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1.7k
+                        2.7k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        6 分
+                        11 分
                     </div>
                     
                 
@@ -443,7 +445,10 @@ https://www.jianshu.com/p/b03a8d7b">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1><span id="markdown-语法介绍-typora-编辑">Markdown 语法介绍 (Typora 编辑)</span></h1><p>[TOC]</p>
+                <h1><span id="markdown-语法介绍-typora-编辑">Markdown 语法介绍 (Typora 编辑)</span></h1><blockquote>
+<p>注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示</p>
+</blockquote>
+<p>[TOC]</p>
 <blockquote>
 <p>参考资料：</p>
 <p><a href="https://ouweiya.gitbooks.io/markdown/index.html" target="_blank" rel="noopener">https://ouweiya.gitbooks.io/markdown/index.html</a></p>
@@ -707,7 +712,127 @@ _   底线
 </code></pre><p>说明：Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用&lt;&gt;包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样。</p>
 <p><strong>展示效果：</strong></p>
 <p><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p>
-<p><a href="mailto:&#x78;&#x78;&#120;&#64;&#x6f;&#x75;&#x74;&#x6c;&#x6f;&#x6f;&#107;&#46;&#x63;&#111;&#109;" target="_blank" rel="noopener">&#x78;&#x78;&#120;&#64;&#x6f;&#x75;&#x74;&#x6c;&#x6f;&#x6f;&#107;&#46;&#x63;&#111;&#109;</a></p>
+<p><a href="mailto:&#x78;&#120;&#x78;&#x40;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#x6b;&#x2e;&#99;&#x6f;&#109;" target="_blank" rel="noopener">&#x78;&#120;&#x78;&#x40;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#x6b;&#x2e;&#99;&#x6f;&#109;</a></p>
+<h3><span id="锚点">锚点</span></h3><p>网页中，锚点其实就是页内超链接，也就是链接本文档内部的某些元素，实现当前页面中的跳转。比如我这里写下一个锚点，点击回到目录，就能跳转到目录。 在目录中点击这一节，就能跳过来。还有下一节的注脚。这些根本上都是用锚点来实现的。</p>
+<p>注意：Markdown Extra 只支持在标题后插入锚点，其它地方无效</p>
+<h4><span id="页内超链接">页内超链接:</span></h4><p><strong>语法：</strong></p>
+<pre><code>## 引用{#index}
+  跳转到[引用]{#index}
+</code></pre><h2><span id="表格">表格</span></h2><p>注：<code>:</code>代表对齐方式 ， <strong><code>:</code> 与<code>|</code> 之间不要有空格</strong></p>
+<pre><code>|姓名|性别|毕业学校|工资|
+|:---|:---:|:---:|---:|
+|杨洋|男|重庆交通大学|3200|
+|峰哥|男|贵州大学|5000|
+|坑货|女|北京大学|2000|
+</code></pre><p>将产生:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">姓名</th>
+<th style="text-align:center">性别</th>
+<th style="text-align:center">毕业学校</th>
+<th style="text-align:right">工资</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">杨洋</td>
+<td style="text-align:center">男</td>
+<td style="text-align:center">重庆交通大学</td>
+<td style="text-align:right">3200</td>
+</tr>
+<tr>
+<td style="text-align:left">峰哥</td>
+<td style="text-align:center">男</td>
+<td style="text-align:center">贵州大学</td>
+<td style="text-align:right">5000</td>
+</tr>
+<tr>
+<td style="text-align:left">坑货</td>
+<td style="text-align:center">女</td>
+<td style="text-align:center">北京大学</td>
+<td style="text-align:right">2000</td>
+</tr>
+</tbody>
+</table>
+<p>其中代码的第二行指定对齐的方式，第一个是左对齐，第二个和第三个是居中，最后一个是右对齐。</p>
+<h3><span id="特殊表格">特殊表格</span></h3><p>注：一般对合并单元格，以及其他特殊格式表格，markdown 是无能为力的<br>所以常规的做法是使用HTML标签，但是这样的编写效率极低。<br>但是有了这款工具的话，所有问题都迎刃而解。</p>
+<p>在线生成HTML代码 <a href="http://www.tablesgenerator.com/" target="_blank" rel="noopener">Tables Generator</a> (国外的站)</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/6912209-46aac2b114b995ec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<p>​                                                                    <u>Tables Generator</u></p>
+<p><strong>演示</strong></p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/6912209-5e14abef7e65830d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/409/format/webp" alt="img"></p>
+<h2><span id="内嵌css样式">内嵌CSS样式</span></h2><p><strong>代码</strong></p>
+<pre><code>&lt;p style=&quot;color: #AD5D0F;font-size: 30px; font-family: &#39;宋体&#39;;&quot;&gt;内联样式&lt;/p&gt;
+</code></pre><p><strong>演示</strong></p>
+<p style="color: #AD5D0F;font-size: 30px; font-family: '宋体';">内联样式</p>
+
+
+
+
+
+
+
+<h2><span id="数学公式">数学公式</span></h2><h3><span id="数学表达式">数学表达式</span></h3><p>要启用这个功能，首先到<code>Preference</code>-&gt;<code>Editor</code>中启用。然后使用<code>$</code>符号包裹Tex命令。</p>
+<p>例如：</p>
+<p><code>$lim_{x \to \infty} \ exp(-x)=0$</code>将产生如下的数学表达式：</p>
+<p>$\lim_{x \to \infty} \exp(-x)=0$</p>
+<p><code>$$ x \href{why-equal.html}{=} y^2 + 1 $$</code>将产生如下的数学表达式：</p>
+<p>$$ x \href{why-equal.html}{=} y^2 + 1 ​$$</p>
+<p><code>$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $</code>将产生如下的数学表达式：</p>
+<p>$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. ​$</p>
+<h3><span id="数学表达式块">数学表达式块</span></h3><p>输入两个美元符号，然后回车，就可以输入数学表达式块了。例如：</p>
+<pre><code> $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\\end{vmatrix}$$
+</code></pre><p>将会产生:</p>
+<p> $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\end{vmatrix}​$$</p>
+<h2><span id="图">图</span></h2><h3><span id="流程图">流程图</span></h3><p>Markdown 编辑器已支持绘制流程图、时序图和甘特图。通过 mermaid 实现图形的插入，点击查看 <a href="https://mermaidjs.github.io/" target="_blank" rel="noopener">更多语法详情</a>。</p>
+<pre><code>​~~~graph
+graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;E;
+    E--&gt;F;
+    D--&gt;F;
+    F--&gt;G;
+​
+</code></pre><pre><code>
+效果图如下：
+
+![img](https://dn-coding-net-production-pp.codehub.cn/9a6a38b8-172e-47f7-8464-b31948728149.jpg)
+
+
+
+![img](https://wizardforcel.gitbooks.io/markdown-simple-world/img/3-5.png)
+
+效果图如下：
+
+![img](https://wizardforcel.gitbooks.io/markdown-simple-world/img/3-6.png)
+
+
+
+### 时序图
+
+</code></pre><p>​<del>~graph<br>sequenceDiagram<br>    participant Alice<br>    participant Bob<br>    Alice-&gt;John: Hello John, how are you?<br>    loop Healthcheck<br>        John-&gt;John: Fight against hypochondria<br>    end<br>    Note right of John: Rational thoughts<br>prevail…<br>    John–&gt;Alice: Great!<br>    John-&gt;Bob: How about you?<br>    Bob–&gt;John: Jolly good!<br>​</del>~</p>
+<pre><code>
+效果图如下：![img](https://dn-coding-net-production-pp.codehub.cn/65d713f4-4088-4988-8959-79ba16b1fa6e.jpg)
+
+
+
+![img](https://wizardforcel.gitbooks.io/markdown-simple-world/img/3-3.png)
+
+效果图如下：
+
+![img](https://wizardforcel.gitbooks.io/markdown-simple-world/img/3-4.png)
+
+
+
+时序图的语法请见[这里](http://bramp.github.io/js-sequence-diagrams/)。流程图的语法请见[这里](http://adrai.github.io/flowchart.js/)。
+
+### 甘特图
+
+</code></pre><p>​<del>~graph<br>gantt<br>        dateFormat  YYYY-MM-DD<br>        title Adding GANTT diagram functionality to mermaid<br>        section A section<br>        Completed task            :done,    des1, 2014-01-06,2014-01-08<br>        Active task               :active,  des2, 2014-01-09, 3d<br>        Future task               :         des3, after des2, 5d<br>        Future task2               :         des4, after des3, 5d<br>        section Critical tasks<br>        Completed task in the critical line :crit, done, 2014-01-06,24h<br>        Implement parser and jison          :crit, done, after des1, 2d<br>        Create tests for parser             :crit, active, 3d<br>        Future task in critical line        :crit, 5d<br>        Create tests for renderer           :2d<br>        Add to mermaid                      :1d<br>​</del>~<br>~~~</p>
+<p>效果图如下：<img src="https://dn-coding-net-production-pp.codehub.cn/651d802e-6409-4cf0-a3dd-b260c8d2cc60.jpg" alt="img"></p>
 
             </div>
             <hr>
@@ -906,11 +1031,13 @@ _   底线
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">Markdown 语法介绍 (Typora 编辑)[TOC]
+                    <div class="summary">Markdown 语法介绍 (Typora 编辑)
+注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示
+
+[TOC]
 
 参考资料：
-https://ouweiya.gitbooks.io/markdown/index.html
-https://www.jianshu.com/p/b03a8d7b</div>
+https://ouweiya.gitbooks.io/markdown/index.ht</div>
                     <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-21
@@ -1101,7 +1228,7 @@ English Document | 演示示例 | QQ 交流群: 926552981
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">6.4k</span>
+                <span class="white-color">7.4k</span>
             
 
             
