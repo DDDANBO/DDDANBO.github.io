@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dddanbo.github.io/"/>
-  <updated>2019-02-22T16:58:30.452Z</updated>
+  <updated>2019-04-14T11:37:48.494Z</updated>
   <id>https://dddanbo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>play </title>
+    <link href="https://dddanbo.github.io/2019/04/14/zong-zhang/"/>
+    <id>https://dddanbo.github.io/2019/04/14/zong-zhang/</id>
+    <published>2019-04-14T11:31:40.000Z</published>
+    <updated>2019-04-14T11:37:48.494Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;第一章-常用算法杂项&quot;&gt;第一章    常用算法杂项&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span id=&quot;第二章-c语言程序设计&quot;&gt;第二章    C语言程序设计&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构和算法" scheme="https://dddanbo.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构" scheme="https://dddanbo.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown 语法介绍 Typora 编辑</title>
