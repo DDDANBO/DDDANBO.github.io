@@ -106,18 +106,18 @@
         }
     })();
 </script>
-  <meta name="description" content="Markdown 语法介绍 (Typora 编辑)  注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示 因显示原因，本文有删减，原文地址：https://blog.csdn.net/qq_43613189/article/details/87887737  @[TOC]  参考资料： https://ouweiya.gitbooks.io/markdown/index.html">
+  <meta name="description" content="Markdown 语法介绍 (Typora 编辑)  注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示 因显示原因，本文有删减，原文地址：https://blog.csdn.net/qq_43613189/article/details/87887737   标题 目录列表 (TOC) 引用  单行式 多行式 多层嵌套   语义标记  斜体 加粗 (强调) 删除线 转义 高亮">
 <meta name="keywords" content="前端,Markdown">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown 语法介绍 Typora 编辑">
 <meta property="og:url" content="https://dddanbo.github.io/2019/02/23/markdown-yu-fa-jie-shao-typora-bian-ji/index.html">
 <meta property="og:site_name" content="糙皮大叔">
-<meta property="og:description" content="Markdown 语法介绍 (Typora 编辑)  注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示 因显示原因，本文有删减，原文地址：https://blog.csdn.net/qq_43613189/article/details/87887737  @[TOC]  参考资料： https://ouweiya.gitbooks.io/markdown/index.html">
+<meta property="og:description" content="Markdown 语法介绍 (Typora 编辑)  注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示 因显示原因，本文有删减，原文地址：https://blog.csdn.net/qq_43613189/article/details/87887737   标题 目录列表 (TOC) 引用  单行式 多行式 多层嵌套   语义标记  斜体 加粗 (强调) 删除线 转义 高亮">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-05-25T01:40:44.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown 语法介绍 Typora 编辑">
-<meta name="twitter:description" content="Markdown 语法介绍 (Typora 编辑)  注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示 因显示原因，本文有删减，原文地址：https://blog.csdn.net/qq_43613189/article/details/87887737  @[TOC]  参考资料： https://ouweiya.gitbooks.io/markdown/index.html">
+<meta name="twitter:description" content="Markdown 语法介绍 (Typora 编辑)  注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示 因显示原因，本文有删减，原文地址：https://blog.csdn.net/qq_43613189/article/details/87887737   标题 目录列表 (TOC) 引用  单行式 多行式 多层嵌套   语义标记  斜体 加粗 (强调) 删除线 转义 高亮">
 
 
 
@@ -174,9 +174,9 @@
   .use-motion .logo-line-before i { left: initial; }
   .use-motion .logo-line-after i { right: initial; }
   </style>
-</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</noscript>
 
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
@@ -508,7 +508,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">6.1k</span>
+                <span title="本文字数">6.2k</span>
               
 
               
@@ -542,12 +542,57 @@
       
 
       
-        <h1><span id="markdown-语法介绍-typora-编辑">Markdown 语法介绍 (Typora 编辑)</span></h1>
+        <h1><span id="markdown-语法介绍-typora-编辑"> Markdown 语法介绍 (Typora 编辑)</span></h1>
 <blockquote>
-<p>注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示
+<p>注：部分Markdown语法无法在博客中显示，但在编辑器中能正常显示<br>
 因显示原因，本文有删减，原文地址：<a href="https://blog.csdn.net/qq_43613189/article/details/87887737" target="_blank" rel="noopener">https://blog.csdn.net/qq_43613189/article/details/87887737</a></p>
 </blockquote>
-<p>@[TOC]</p>
+<p><ul class="markdownIt-TOC">
+<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
+<li><a href="#%E7%9B%AE%E5%BD%95%E5%88%97%E8%A1%A8-toc">目录列表 (TOC)</a></li>
+<li><a href="#%E5%BC%95%E7%94%A8">引用</a>
+<ul>
+<li><a href="#%E5%8D%95%E8%A1%8C%E5%BC%8F">单行式</a></li>
+<li><a href="#%E5%A4%9A%E8%A1%8C%E5%BC%8F">多行式</a></li>
+<li><a href="#%E5%A4%9A%E5%B1%82%E5%B5%8C%E5%A5%97">多层嵌套</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AF%AD%E4%B9%89%E6%A0%87%E8%AE%B0">语义标记</a>
+<ul>
+<li><a href="#%E6%96%9C%E4%BD%93">斜体</a></li>
+<li><a href="#%E5%8A%A0%E7%B2%97-%E5%BC%BA%E8%B0%83">加粗 (强调)</a></li>
+<li><a href="#%E5%88%A0%E9%99%A4%E7%BA%BF">删除线</a></li>
+<li><a href="#%E8%BD%AC%E4%B9%89">转义</a></li>
+<li><a href="#%E9%AB%98%E4%BA%AE">高亮</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%8B%E6%A0%87">下标</a>
+<ul>
+<li><a href="#%E4%B8%8A%E6%A0%87">上标</a></li>
+<li><a href="#%E6%8F%92%E5%85%A5%E8%A1%A8%E6%83%85happy">插入表情:happy:</a></li>
+<li><a href="#%E4%B8%8B%E5%88%92%E7%BA%BF">下划线</a></li>
+<li><a href="#%E6%B0%B4%E5%B9%B3%E5%88%86%E5%89%B2%E7%BA%BF">水平分割线</a></li>
+<li><a href="#%E6%B3%A8%E9%87%8A">注释</a></li>
+</ul>
+</li>
+<li><a href="#%E5%88%97%E8%A1%A8">列表</a>
+<ul>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
+<li><a href="#%E5%BA%8F%E8%A1%A8%E5%B5%8C%E5%A5%97">序表嵌套</a></li>
+<li><a href="#%E5%B1%82%E7%BA%A7%E5%88%97%E8%A1%A8">层级列表</a></li>
+<li><a href="#%E5%BA%8F%E8%A1%A8%E5%B5%8C%E5%A5%97%E4%BB%A3%E7%A0%81%E5%9D%97">序表嵌套代码块</a></li>
+<li><a href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8">任务列表</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BB%A3%E7%A0%81">代码</a>
+<ul>
+<li><a href="#%E8%A1%8C%E5%86%85%E6%A0%87%E8%AE%B0">行内标记</a></li>
+<li><a href="#%E4%BB%A3%E7%A0%81%E5%9D%97">代码块</a></li>
+</ul>
+</li>
+</ul>
+</p>
 <blockquote>
 <p>参考资料：</p>
 <p><a href="https://ouweiya.gitbooks.io/markdown/index.html" target="_blank" rel="noopener">https://ouweiya.gitbooks.io/markdown/index.html</a></p>
@@ -558,32 +603,32 @@
 <p><a href="https://guo365.github.io/study/Markdown.html" target="_blank" rel="noopener">https://guo365.github.io/study/Markdown.html</a></p>
 <p><a href="https://yuedu.baidu.com/ebook/f2ec7e699a6648d7c1c708a1284ac850ad020418" target="_blank" rel="noopener">https://yuedu.baidu.com/ebook/f2ec7e699a6648d7c1c708a1284ac850ad020418</a></p>
 </blockquote>
-<h2><span id="标题">标题</span></h2>
-<p>使用#表示一级标题，##表示二级标题，以此类推，有6个标题。
+<h2><span id="标题"> 标题</span></h2>
+<p>使用#表示一级标题，##表示二级标题，以此类推，有6个标题。<br>
 注：# 后面保持空格</p>
-<h2><span id="目录列表-toc">目录列表 (TOC)</span></h2>
+<h2><span id="目录列表-toc"> 目录列表 (TOC)</span></h2>
 <p>输入[toc]然后回车，将会产生一个目录，这个目录抽取了文章的所有标题，自动更新内容。</p>
-<h2><span id="引用">引用</span></h2>
-<h3><span id="单行式">单行式</span></h3>
+<h2><span id="引用"> 引用</span></h2>
+<h3><span id="单行式"> 单行式</span></h3>
 <p>使用 &gt; 来插入块引用。例如：</p>
-<p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; hello world!</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; hello world!</span></span><br></pre></td></tr></table></figure>
 <p><strong>演示：</strong></p>
 <blockquote>
 <p>hello world!</p>
 </blockquote>
-<h3><span id="多行式">多行式</span></h3>
-<p><figure class="highlight erlang-repl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; hello world!</span><br><span class="line">hello world!</span><br><span class="line">hello world!</span><br></pre></td></tr></table></figure></p>
+<h3><span id="多行式"> 多行式</span></h3>
+<figure class="highlight erlang-repl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; hello world!</span><br><span class="line">hello world!</span><br><span class="line">hello world!</span><br></pre></td></tr></table></figure>
 <p>或者</p>
-<p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; hello world!</span></span><br><span class="line"><span class="quote">&gt; hello world!</span></span><br><span class="line"><span class="quote">&gt; hello world!</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; hello world!</span></span><br><span class="line"><span class="quote">&gt; hello world!</span></span><br><span class="line"><span class="quote">&gt; hello world!</span></span><br></pre></td></tr></table></figure>
 <p><strong>演示</strong></p>
 <p>相同的结果</p>
 <blockquote>
-<p>hello world!
-hello world!
+<p>hello world!<br>
+hello world!<br>
 hello world!</p>
 </blockquote>
-<h3><span id="多层嵌套">多层嵌套</span></h3>
-<p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash"> aaaaaaaaa</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; bbbbbbbbb</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; &gt; cccccccccc</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; &gt; </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"></span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"></span></span><br></pre></td></tr></table></figure></p>
+<h3><span id="多层嵌套"> 多层嵌套</span></h3>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash"> aaaaaaaaa</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; bbbbbbbbb</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; &gt; cccccccccc</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt; &gt; </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &gt;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"></span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"></span></span><br></pre></td></tr></table></figure>
 <p><strong>演示</strong></p>
 <blockquote>
 <p>aaaaaaaaa</p>
@@ -594,7 +639,7 @@ hello world!</p>
 </blockquote>
 </blockquote>
 </blockquote>
-<h2><span id="语义标记">语义标记</span></h2>
+<h2><span id="语义标记"> 语义标记</span></h2>
 <table>
 <thead>
 <tr>
@@ -621,7 +666,7 @@ hello world!</p>
 </tr>
 <tr>
 <td>加粗+斜体</td>
-<td><strong><em>加粗+斜体</em></strong></td>
+<td><em><strong>加粗+斜体</strong></em></td>
 <td><code>***加粗+斜体***</code></td>
 </tr>
 <tr>
@@ -636,63 +681,62 @@ hello world!</p>
 </tr>
 </tbody>
 </table>
-<h3><span id="斜体">斜体</span></h3>
+<h3><span id="斜体"> 斜体</span></h3>
 <p>在标准的Markdown语法中，*和_包裹的内容会是斜体显示，但是GFM下划线一般用来分隔人名和代码变量名，因此我们推荐是用星号来包裹斜体内容。如果要显示星号，则使用转义：</p>
-<p><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">\*</span></span><br></pre></td></tr></table></figure></p>
-<h3><span id="加粗-强调">加粗 (强调)</span></h3>
+<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">\*</span></span><br></pre></td></tr></table></figure>
+<h3><span id="加粗-强调"> 加粗 (强调)</span></h3>
 <p>使用两个*号或者两个_包裹的内容将会被加粗。例如</p>
-<p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**使用两个*号加粗内容**</span></span><br><span class="line"><span class="strong">__使用两个下划线加粗内容__</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**使用两个*号加粗内容**</span></span><br><span class="line"><span class="strong">__使用两个下划线加粗内容__</span></span><br></pre></td></tr></table></figure>
 <p>将会输出</p>
-<p><em><em>使用两个</em>号加粗内容</em>*
+<p><strong>使用两个*号加粗内容</strong><br>
 <strong>使用两个下划线加粗内容</strong></p>
 <p><em>Typroa 推荐使用两个*号。</em></p>
-<h3><span id="删除线">删除线</span></h3>
+<h3><span id="删除线"> 删除线</span></h3>
 <p>GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使用<code>~~</code>包裹的文本将会具有删除的样式，例如<code>~删除文本~</code>将产生<s>删除文本</s>的样式。</p>
-<h3><span id="转义">转义</span></h3>
+<h3><span id="转义"> 转义</span></h3>
 <p>markdown支持在以下字符前面插入反斜杠</p>
-<p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line"><span class="bullet">*   </span>星号</span><br><span class="line">_   底线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  括弧</span><br><span class="line"><span class="section">#   井字号</span></span><br><span class="line"><span class="bullet">+   </span>加号</span><br><span class="line"><span class="bullet">-   </span>减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   惊叹号</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line"><span class="bullet">*   </span>星号</span><br><span class="line">_   底线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  括弧</span><br><span class="line"><span class="section">#   井字号</span></span><br><span class="line"><span class="bullet">+   </span>加号</span><br><span class="line"><span class="bullet">-   </span>减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   惊叹号</span><br></pre></td></tr></table></figure>
 <p>插入之后，将不再解析这些字符，而是原样输出。</p>
-<h3><span id="高亮">高亮</span></h3>
-<p>高亮使用<code>==</code>包裹，例如：<code>==高亮==</code>将产生==高亮==</p>
-<h2><span id="下标">下标</span></h2>
-<p>下标使用<code>~</code>包裹，例如：<code>H~2~O</code>将产生H~2~O, 即水的分子式。</p>
-<h3><span id="上标">上标</span></h3>
-<p>上标使用<code>^</code>包裹，例如：<code>y^2^=4</code>将产生表达式y^2^ = 4</p>
-<h3><span id="插入表情happy">插入表情:happy:</span></h3>
-<p>使用<code>:happy:</code>输入表情:happy:,使用<code>:sad:</code>输入表情:sad:,使用<code>:cry:</code>输入表情:cry:等。以此类推！</p>
-<h3><span id="下划线">下划线</span></h3>
-<p>用HTML的语法<code>&lt;u&gt;Underline&lt;/u&gt;</code>将产生下划线&lt;u&gt;Underline&lt;/u&gt;.</p>
-<h3><span id="水平分割线">水平分割线</span></h3>
+<h3><span id="高亮"> 高亮</span></h3>
+<p>高亮使用<code>==</code>包裹，例如：<code>==高亮==</code>将产生<mark>高亮</mark></p>
+<h2><span id="下标"> 下标</span></h2>
+<p>下标使用<code>~</code>包裹，例如：<code>H~2~O</code>将产生H<sub>2</sub>O, 即水的分子式。</p>
+<h3><span id="上标"> 上标</span></h3>
+<p>上标使用<code>^</code>包裹，例如：<code>y^2^=4</code>将产生表达式y<sup>2</sup> = 4</p>
+<h3><span id="插入表情happy"> 插入表情:happy:</span></h3>
+<p>使用<code>:happy:</code>输入表情:happy:,使用<code>:sad:</code>输入表情:sad:,使用<code>:cry:</code>输入表情😢等。以此类推！</p>
+<h3><span id="下划线"> 下划线</span></h3>
+<p>用HTML的语法<code>&lt;u&gt;Underline&lt;/u&gt;</code>将产生下划线<u>Underline</u>.</p>
+<h3><span id="水平分割线"> 水平分割线</span></h3>
 <p>使用<code>***</code>或者<code>---</code>，然后回车，来产生水平分割线。</p>
 <hr>
-<h3><span id="注释">注释</span></h3>
+<h3><span id="注释"> 注释</span></h3>
 <p>我们可以对某一个词语进行注释。例如</p>
-<p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">某些人用过了才知道<span class="selector-attr">[^注释]</span></span><br><span class="line"><span class="selector-attr">[^注释]</span><span class="selector-pseudo">:Somebody</span> <span class="selector-tag">that</span> <span class="selector-tag">I</span> <span class="selector-tag">used</span> <span class="selector-tag">to</span> <span class="selector-tag">know</span>.</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">某些人用过了才知道<span class="selector-attr">[^注释]</span></span><br><span class="line"><span class="selector-attr">[^注释]</span><span class="selector-pseudo">:Somebody</span> <span class="selector-tag">that</span> <span class="selector-tag">I</span> <span class="selector-tag">used</span> <span class="selector-tag">to</span> <span class="selector-tag">know</span>.</span><br></pre></td></tr></table></figure>
 <p>将产生：</p>
-<p>某些人用过了才知道[^注释]</p>
-<p>[^注释]: Somebody that I used to know.</p>
+<p>某些人用过了才知道<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <p><em>把鼠标放在<code>注释</code>上，将会有提示内容。</em></p>
-<h2><span id="列表">列表</span></h2>
+<h2><span id="列表"> 列表</span></h2>
 <p>注：序列<code>.</code>后 保持空格</p>
-<h3><span id="无序列表">无序列表</span></h3>
+<h3><span id="无序列表"> 无序列表</span></h3>
 <p>输入+, -, *创建无序的列表，使用任意数字开头，创建有序列表，例如：</p>
-<p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*<span class="strong">*无序的列表*</span><span class="strong">*</span></span><br><span class="line"><span class="strong">*</span> one</span><br><span class="line"><span class="bullet">* </span>two</span><br><span class="line"><span class="bullet">* </span>three</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*<span class="strong">*无序的列表*</span><span class="strong">*</span></span><br><span class="line"><span class="strong">*</span> one</span><br><span class="line"><span class="bullet">* </span>two</span><br><span class="line"><span class="bullet">* </span>three</span><br></pre></td></tr></table></figure>
 <p><strong>无序的列表</strong></p>
 <ul>
 <li>one</li>
 <li>two</li>
 <li>three</li>
 </ul>
-<h3><span id="有序列表">有序列表</span></h3>
-<p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**有序的列表**</span></span><br><span class="line"><span class="bullet">1. </span>one</span><br><span class="line"><span class="bullet">2. </span>two</span><br><span class="line"><span class="bullet">3. </span>three</span><br></pre></td></tr></table></figure></p>
+<h3><span id="有序列表"> 有序列表</span></h3>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**有序的列表**</span></span><br><span class="line"><span class="bullet">1. </span>one</span><br><span class="line"><span class="bullet">2. </span>two</span><br><span class="line"><span class="bullet">3. </span>three</span><br></pre></td></tr></table></figure>
 <p><strong>有序的列表</strong></p>
 <ol>
 <li>one</li>
 <li>two</li>
 <li>three</li>
 </ol>
-<h3><span id="序表嵌套">序表嵌套</span></h3>
-<p><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> one</span><br><span class="line">    <span class="number">1.</span> one<span class="number">-1</span></span><br><span class="line">    <span class="number">2.</span> two<span class="number">-2</span></span><br><span class="line"><span class="number">2.</span> two </span><br><span class="line">    * two<span class="number">-1</span></span><br><span class="line">    * two<span class="number">-2</span></span><br></pre></td></tr></table></figure></p>
+<h3><span id="序表嵌套"> 序表嵌套</span></h3>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> one</span><br><span class="line">    <span class="number">1.</span> one<span class="number">-1</span></span><br><span class="line">    <span class="number">2.</span> two<span class="number">-2</span></span><br><span class="line"><span class="number">2.</span> two </span><br><span class="line">    * two<span class="number">-1</span></span><br><span class="line">    * two<span class="number">-2</span></span><br></pre></td></tr></table></figure>
 <p><strong>演示</strong></p>
 <ol>
 <li>one
@@ -708,8 +752,8 @@ hello world!</p>
 </ul>
 </li>
 </ol>
-<h3><span id="层级列表">层级列表</span></h3>
-<p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">* 总目录</span></span><br><span class="line"><span class="comment">  * 一级目录</span></span><br><span class="line"><span class="comment">    * 二级目录</span></span><br><span class="line"><span class="comment">      * 三级目录</span></span><br></pre></td></tr></table></figure></p>
+<h3><span id="层级列表"> 层级列表</span></h3>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">* 总目录</span></span><br><span class="line"><span class="comment">  * 一级目录</span></span><br><span class="line"><span class="comment">    * 二级目录</span></span><br><span class="line"><span class="comment">      * 三级目录</span></span><br></pre></td></tr></table></figure>
 <p>说明：层级列表一般只支持三级列表，第一级实心圆点，第二级空心圆点，第三级以后都是实心方点。要实现层级列表，每下一级都要比上一级多输入2个空格或者一个Tab，而且第一级前面不要超过3个空格.</p>
 <p><strong>演示</strong></p>
 <ul>
@@ -727,35 +771,35 @@ hello world!</p>
 </ul>
 </li>
 </ul>
-<h3><span id="序表嵌套代码块">序表嵌套代码块</span></h3>
+<h3><span id="序表嵌套代码块"> 序表嵌套代码块</span></h3>
 <p>注：换行+两个Tab</p>
-<p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">* <span class="literal">one</span></span><br><span class="line">    var <span class="keyword">a</span> = <span class="number">10</span>;    <span class="comment"> // 与上行保持空行并递进缩进</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">* <span class="literal">one</span></span><br><span class="line">    var <span class="keyword">a</span> = <span class="number">10</span>;    <span class="comment"> // 与上行保持空行并递进缩进</span></span><br></pre></td></tr></table></figure>
 <p><strong>演示：</strong></p>
 <ul>
 <li>
 <p>one</p>
-<p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">var a</span> = 10;</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">var a</span> = 10;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h3><span id="任务列表">任务列表</span></h3>
+<h3><span id="任务列表"> 任务列表</span></h3>
 <p>使用如下的代码创建任务列表，在[ ]中输入x表示完成，也可以通过点击选择完成或者没完成。</p>
-<p><figure class="highlight accesslog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- <span class="string">[ ]</span> 吃饭</span><br><span class="line">- <span class="string">[ ]</span> 逛街</span><br><span class="line">- <span class="string">[ ]</span> 看电影</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight accesslog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- <span class="string">[ ]</span> 吃饭</span><br><span class="line">- <span class="string">[ ]</span> 逛街</span><br><span class="line">- <span class="string">[ ]</span> 看电影</span><br></pre></td></tr></table></figure>
 <ul>
 <li>[x] 吃饭</li>
 <li>[x] 逛街</li>
 <li>[x] 看电影</li>
 </ul>
-<h2><span id="代码">代码</span></h2>
-<h3><span id="行内标记">行内标记</span></h3>
+<h2><span id="代码"> 代码</span></h2>
+<h3><span id="行内标记"> 行内标记</span></h3>
 <p>使用`包裹的内容将会以代码样式显示，例如</p>
-<p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用`<span class="built_in">printf</span>()`</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用<span class="string">`printf()`</span></span><br></pre></td></tr></table></figure>
 <p>则会产生 <code>printf()</code> 样式。</p>
-<h3><span id="代码块">代码块</span></h3>
+<h3><span id="代码块"> 代码块</span></h3>
 <p><em>注：与上行距离一空行，根据不同的语言配置不同的代码着色</em></p>
 <p>输入`<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">例如：</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">  ~~~java</span><br><span class="line">  public Class HelloWorld&#123;</span><br><span class="line">    System.out.println(&quot;Hello World!&quot;);</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></p>
-<p><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  将会产生</span><br><span class="line"></span><br><span class="line">  ~~~java</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">Class</span> HelloWorld&#123;</span><br><span class="line">    System.out.<span class="keyword">println</span>(<span class="string">"Hello World!"</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  ~~~</span><br><span class="line"></span><br><span class="line">例如：</span><br></pre></td></tr></table></figure></p>
-<p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++) &#123;</span><br><span class="line">    num+=i;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(num);</span><br></pre></td></tr></table></figure></p>
-<pre><code>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  将会产生</span><br><span class="line"></span><br><span class="line">  ~~~java</span><br><span class="line">  <span class="built_in">public</span> <span class="keyword">Class</span> HelloWorld&#123;</span><br><span class="line">    <span class="keyword">System</span>.<span class="keyword">out</span>.println("Hello World!");</span><br><span class="line">  &#125;</span><br><span class="line">  ~~~</span><br><span class="line"></span><br><span class="line">例如：</span><br></pre></td></tr></table></figure>
+  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++) &#123;</span><br><span class="line">    num+=i;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(num);</span><br></pre></td></tr></table></figure>
+<pre class="highlight"><code class>
 演示
 
   <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++) &#123;</span><br><span class="line">    num+=i;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(num);</span><br></pre></td></tr></table></figure>
@@ -904,6 +948,13 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. ​$
 
 
 </code></pre>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Somebody that I used to know. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 
       
     </div>
@@ -1140,7 +1191,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. ​$
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-text">Markdown 语法介绍 (Typora 编辑)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text">目录列表 (TOC)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text">引用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">单行式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">多行式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">多层嵌套</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text">语义标记</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">斜体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">加粗 (强调)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">删除线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">转义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">高亮</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text">下标</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">上标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">插入表情:happy:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">下划线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">水平分割线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">注释</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text">列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">序表嵌套</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">层级列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">序表嵌套代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">任务列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text">代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">行内标记</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text">代码块</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-text"> Markdown 语法介绍 (Typora 编辑)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text"> 标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text"> 目录列表 (TOC)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text"> 引用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 单行式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 多行式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 多层嵌套</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text"> 语义标记</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 斜体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 加粗 (强调)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 删除线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 转义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 高亮</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text"> 下标</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 上标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 插入表情:happy:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 下划线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 水平分割线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 注释</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text"> 列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 序表嵌套</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 层级列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 序表嵌套代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 任务列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-text"> 代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 行内标记</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-text"> 代码块</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -1175,7 +1226,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. ​$
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">61k</span>
+    <span title="站点总字数">64k</span>
   
 
   
@@ -1186,7 +1237,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. ​$
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">56 分钟</span>
+    <span title="站点阅读时长">58 分钟</span>
   
 </div>
 
