@@ -1828,7 +1828,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1466ee;
+  background: #01ff9e;
 }
 .feed-link,
 .chat {
@@ -1944,6 +1944,65 @@ pre .javascript .function {
 .site-state-item-name {
   font-size: 13px;
   color: inherit;
+}
+.post-toc-empty {
+  font-size: 14px;
+  color: #666;
+}
+.post-toc-wrap {
+  overflow: hidden;
+}
+.post-toc {
+  overflow: auto;
+}
+.post-toc ol {
+  margin: 0;
+  padding: 0 2px 5px 10px;
+  text-align: left;
+  list-style: none;
+  font-size: 14px;
+}
+.post-toc ol > ol {
+  padding-left: 0;
+}
+.post-toc ol a {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
+  color: #999;
+  border-bottom-color: #555;
+}
+.post-toc ol a:hover {
+  color: #ccc;
+  border-bottom-color: #ccc;
+}
+.post-toc .nav-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.8;
+}
+.post-toc .nav .nav-child {
+  display: none;
+}
+.post-toc .nav .active > .nav-child {
+  display: block;
+}
+.post-toc .nav .active-current > .nav-child {
+  display: block;
+}
+.post-toc .nav .active-current > .nav-child > .nav-item {
+  display: block;
+}
+.post-toc .nav .active > a {
+  color: #87daff;
+  border-bottom-color: #87daff;
+}
+.post-toc .nav .active-current > a {
+  color: #87daff;
+}
+.post-toc .nav .active-current > a:hover {
+  color: #87daff;
 }
 .footer {
   font-size: 14px;
