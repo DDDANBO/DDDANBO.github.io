@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dddanbo.github.io/"/>
-  <updated>2019-05-25T06:26:54.679Z</updated>
+  <updated>2019-06-06T12:19:06.364Z</updated>
   <id>https://dddanbo.github.io/</id>
   
   <author>
@@ -17,62 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>TEST</title>
-    <link href="https://dddanbo.github.io/2019/05/25/test/"/>
-    <id>https://dddanbo.github.io/2019/05/25/test/</id>
-    <published>2019-05-25T06:26:03.000Z</published>
-    <updated>2019-05-25T06:26:54.679Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2&gt;&lt;span id=&quot;12345&quot;&gt; 12345&lt;/span&gt;&lt;/h2&gt;
-&lt;h4&gt;&lt;span id=&quot;1234&quot;&gt; 1234&lt;/span&gt;&lt;/h4&gt;
-&lt;h5&gt;&lt;span id=&quot;123&quot;&gt;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构 </title>
-    <link href="https://dddanbo.github.io/2019/04/14/zong-zhang/"/>
-    <id>https://dddanbo.github.io/2019/04/14/zong-zhang/</id>
-    <published>2019-04-14T11:31:40.000Z</published>
-    <updated>2019-05-25T10:49:53.127Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="数据结构和算法" scheme="https://dddanbo.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="数据结构" scheme="https://dddanbo.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown 语法介绍 Typora 编辑</title>
-    <link href="https://dddanbo.github.io/2019/02/23/markdown-yu-fa-jie-shao-typora-bian-ji/"/>
-    <id>https://dddanbo.github.io/2019/02/23/markdown-yu-fa-jie-shao-typora-bian-ji/</id>
+    <title>Markdown语法简易指南</title>
+    <link href="https://dddanbo.github.io/2019/02/23/Markdown/"/>
+    <id>https://dddanbo.github.io/2019/02/23/Markdown/</id>
     <published>2019-02-22T16:58:36.000Z</published>
-    <updated>2019-05-25T01:40:44.297Z</updated>
+    <updated>2019-06-06T12:19:06.364Z</updated>
     
     <summary type="html">
     
@@ -80,7 +29,10 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;markdown-语法介绍-typora-编辑&quot;&gt; Markdown 语法介绍 (Typora
+          &lt;blockquote&gt;
+&lt;p&gt;注：本站使用&lt;a href=&quot;https://typora.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Typora&lt;/a&gt;软件编辑&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;&lt;span
         
       
     
@@ -96,36 +48,11 @@
   </entry>
   
   <entry>
-    <title>hexo-theme-matery</title>
-    <link href="https://dddanbo.github.io/2019/02/17/hexo-theme-matery/"/>
-    <id>https://dddanbo.github.io/2019/02/17/hexo-theme-matery/</id>
-    <published>2019-02-17T15:08:19.000Z</published>
-    <updated>2019-02-19T08:30:09.901Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1&gt;&lt;span id=&quot;hexo-theme-matery&quot;&gt; hexo-theme-matery&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;http://hits.dwyl.io/blinkfox/hexo-theme-matery&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="前端" scheme="https://dddanbo.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="https://dddanbo.github.io/2019/02/17/hello-world/"/>
     <id>https://dddanbo.github.io/2019/02/17/hello-world/</id>
     <published>2019-02-16T16:01:19.000Z</published>
-    <updated>2019-05-25T01:06:38.020Z</updated>
+    <updated>2019-06-06T11:40:44.178Z</updated>
     
     <summary type="html">
     
@@ -133,10 +60,7 @@
       
         
         
-          &lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#quick-start&quot;&gt;Quick Start&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#create-a-new-post&quot;&gt;Create a new
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
         
       
     
@@ -144,53 +68,6 @@
     
     
       <category term="前端" scheme="https://dddanbo.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Typora For Markdown 语法</title>
-    <link href="https://dddanbo.github.io/2019/02/16/typora-for-markdown-yu-fa/"/>
-    <id>https://dddanbo.github.io/2019/02/16/typora-for-markdown-yu-fa/</id>
-    <published>2019-02-16T15:57:19.000Z</published>
-    <updated>2019-05-25T01:05:20.010Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;#Typora For Markdown 语法&lt;/p&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%B8%8B%E5%88%92%E7%BA%BF&quot;&gt;下划线&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="前端" scheme="https://dddanbo.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>text</title>
-    <link href="https://dddanbo.github.io/2019/02/16/text/"/>
-    <id>https://dddanbo.github.io/2019/02/16/text/</id>
-    <published>2019-02-16T14:47:19.000Z</published>
-    <updated>2019-05-25T01:51:36.329Z</updated>
-    
-    <summary type="html">
-    
-      Welcome to my blog, enter password to read.
-    
-    </summary>
-    
-    
-      <category term="wechat" scheme="https://dddanbo.github.io/tags/wechat/"/>
     
   </entry>
   
