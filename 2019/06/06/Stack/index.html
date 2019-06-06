@@ -96,16 +96,18 @@
 
 
 
-  <meta name="description" content="将十四行诗写到大洋尽头">
-<meta property="og:type" content="website">
-<meta property="og:title" content="糙皮大叔">
-<meta property="og:url" content="https://dddanbo.github.io/archives/2019/06/index.html">
+  <meta name="description" content="目录  类型定义 栈的初始化 销毁栈 清空栈 判断栈是否为空 计算栈的长度 得到栈顶元素 入栈 出栈 遍历栈中元素    顺序栈  类型定义 1234567891011#define STACK_INIT_SIZE	100				//顺序栈存储空间的初始分配量#define STACKINCREMENT	10 				//顺序栈存储空间的分配增量typedef int SElemType_Sq;">
+<meta name="keywords" content="数据结构,栈">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【数据结构】第三章	栈">
+<meta property="og:url" content="https://dddanbo.github.io/2019/06/06/Stack/index.html">
 <meta property="og:site_name" content="糙皮大叔">
-<meta property="og:description" content="将十四行诗写到大洋尽头">
+<meta property="og:description" content="目录  类型定义 栈的初始化 销毁栈 清空栈 判断栈是否为空 计算栈的长度 得到栈顶元素 入栈 出栈 遍历栈中元素    顺序栈  类型定义 1234567891011#define STACK_INIT_SIZE	100				//顺序栈存储空间的初始分配量#define STACKINCREMENT	10 				//顺序栈存储空间的分配增量typedef int SElemType_Sq;">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-06-06T13:59:43.914Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="糙皮大叔">
-<meta name="twitter:description" content="将十四行诗写到大洋尽头">
+<meta name="twitter:title" content="【数据结构】第三章	栈">
+<meta name="twitter:description" content="目录  类型定义 栈的初始化 销毁栈 清空栈 判断栈是否为空 计算栈的长度 得到栈顶元素 入栈 出栈 遍历栈中元素    顺序栈  类型定义 1234567891011#define STACK_INIT_SIZE	100				//顺序栈存储空间的初始分配量#define STACKINCREMENT	10 				//顺序栈存储空间的分配增量typedef int SElemType_Sq;">
 
 
 
@@ -115,7 +117,7 @@
 
   
   
-  <link rel="canonical" href="https://dddanbo.github.io/archives/2019/06/">
+  <link rel="canonical" href="https://dddanbo.github.io/2019/06/06/Stack/">
 
 
 
@@ -125,7 +127,7 @@
   };
 </script>
 
-  <title>归档 | 糙皮大叔</title>
+  <title>【数据结构】第三章	栈 | 糙皮大叔</title>
   
 
 
@@ -173,7 +175,7 @@
     
   
 
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-archive">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <a href="https://github.com/DDDANBO" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
@@ -285,7 +287,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
 
     
     
@@ -363,349 +365,271 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://dddanbo.github.io/2019/06/06/Stack/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="DDDANBO">
+      <meta itemprop="description" content="将十四行诗写到大洋尽头">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="糙皮大叔">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">【数据结构】第三章	栈
+
+              
+            
+          </h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-06 20:38:27 / 修改时间：21:59:43" itemprop="dateCreated datePublished" datetime="2019-06-06T20:38:27+08:00">2019-06-06</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 10 篇日志。 继续努力。
-      </span>
-      
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/数据结构和算法/" itemprop="url" rel="index"><span itemprop="name">数据结构和算法</span></a></span>
 
-      
-
-        
-        
-        
-
-        
+                
+                
+              
+            </span>
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2019">2019</h1>
-          </div>
-        
-        
 
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/All-In-One/" itemprop="url">
+          
             
-              <span itemprop="name">【数据结构】数据结构（C语言版）严蔚敏版代码实现</span>
             
-          </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T21:07:36+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
+          
+          
 
-    </header>
-  </article>
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
+          
+            <div class="post-symbolscount">
+              
 
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">3.1k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">3 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/Tree/" itemprop="url">
-            
-              <span itemprop="name">【数据结构】第六章	树</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T20:56:20+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/Array-and-List/" itemprop="url">
-            
-              <span itemprop="name">【数据结构】第五章	数组和广义表</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T20:53:02+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <h1><span id="目录"> 目录</span></h1>
+<p><ul class="markdownIt-TOC">
+<li><a href="#%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89">类型定义</a></li>
+<li><a href="#%E6%A0%88%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96">栈的初始化</a></li>
+<li><a href="#%E9%94%80%E6%AF%81%E6%A0%88">销毁栈</a></li>
+<li><a href="#%E6%B8%85%E7%A9%BA%E6%A0%88">清空栈</a></li>
+<li><a href="#%E5%88%A4%E6%96%AD%E6%A0%88%E6%98%AF%E5%90%A6%E4%B8%BA%E7%A9%BA">判断栈是否为空</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%A0%88%E7%9A%84%E9%95%BF%E5%BA%A6">计算栈的长度</a></li>
+<li><a href="#%E5%BE%97%E5%88%B0%E6%A0%88%E9%A1%B6%E5%85%83%E7%B4%A0">得到栈顶元素</a></li>
+<li><a href="#%E5%85%A5%E6%A0%88">入栈</a></li>
+<li><a href="#%E5%87%BA%E6%A0%88">出栈</a></li>
+<li><a href="#%E9%81%8D%E5%8E%86%E6%A0%88%E4%B8%AD%E5%85%83%E7%B4%A0">遍历栈中元素</a></li>
+</ul>
+</p>
+<h1><span id="顺序栈"> 顺序栈</span></h1>
+<h2><span id="类型定义"> 类型定义</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> STACK_INIT_SIZE	100				<span class="comment">//顺序栈存储空间的初始分配量</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> STACKINCREMENT	10 				<span class="comment">//顺序栈存储空间的分配增量</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> SElemType_Sq;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	SElemType_Sq *base;				<span class="comment">//在栈构造之前和销毁之后，base的值为NULL </span></span><br><span class="line">	SElemType_Sq *top;				<span class="comment">//栈顶指针 </span></span><br><span class="line">	<span class="keyword">int</span> stacksize;					<span class="comment">//当前已分配的存储空间，以元素为单位 </span></span><br><span class="line">&#125;SqStack;</span><br></pre></td></tr></table></figure>
+<h2><span id="栈的初始化"> 栈的初始化</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">InitStack_Sq</span><span class="params">(SqStack &amp;S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> 	S.base = (SElemType_Sq *)<span class="built_in">malloc</span>(STACK_INIT_SIZE*<span class="keyword">sizeof</span>(SElemType_Sq));</span><br><span class="line">	<span class="keyword">if</span>(!S.base)</span><br><span class="line">		<span class="built_in">exit</span>(OVERFLOW);</span><br><span class="line">		</span><br><span class="line">	S.top = S.base;</span><br><span class="line">	S.stacksize = STACK_INIT_SIZE;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="comment">//*******************</span></span><br><span class="line"></span><br><span class="line"><span class="function">Status <span class="title">InitStack_Sq</span><span class="params">(SqStack *S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> 	(*S).base = (SElemType_Sq *)<span class="built_in">malloc</span>(STACK_INIT_SIZE*<span class="keyword">sizeof</span>(SElemType_Sq));</span><br><span class="line">	<span class="keyword">if</span>(!(*S).base)</span><br><span class="line">		<span class="built_in">exit</span>(OVERFLOW);</span><br><span class="line">		</span><br><span class="line">	(*S).top = (*S).base;</span><br><span class="line">	(*S).stacksize = STACK_INIT_SIZE;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="销毁栈"> 销毁栈</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">DestroyStack_Sq</span><span class="params">(SqStack &amp;S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">free</span>(S.base);</span><br><span class="line">	</span><br><span class="line">	S.base = <span class="literal">NULL</span>;</span><br><span class="line">	S.top = <span class="literal">NULL</span>;</span><br><span class="line">	S.stacksize = <span class="number">0</span>;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="comment">//*******************</span></span><br><span class="line"></span><br><span class="line"><span class="function">Status <span class="title">DestroyStack_Sq</span><span class="params">(SqStack *S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">free</span>((*S).base);</span><br><span class="line">	</span><br><span class="line">	(*S).base = <span class="literal">NULL</span>;</span><br><span class="line">	(*S).top = <span class="literal">NULL</span>;</span><br><span class="line">	(*S).stacksize = <span class="number">0</span>;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="清空栈"> 清空栈</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">ClearStack_Sq</span><span class="params">(SqStack &amp;S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	S.top = S.base;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="comment">//*******************</span></span><br><span class="line"></span><br><span class="line"><span class="function">Status <span class="title">ClearStack_Sq</span><span class="params">(SqStack *S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	(*S).top = (*S).base;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="判断栈是否为空"> 判断栈是否为空</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">StackEmpty_Sq</span><span class="params">(SqStack S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(S.top==S.base)</span><br><span class="line">		<span class="keyword">return</span> TRUE;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> FALSE;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="计算栈的长度"> 计算栈的长度</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">StackLength_Sq</span><span class="params">(SqStack S)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> S.top - S.base;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="得到栈顶元素"> 得到栈顶元素</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">GetTop_Sq</span><span class="params">(SqStack S, SElemType_Sq &amp;e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(S.top==S.base)</span><br><span class="line">		<span class="keyword">return</span> ERROR;</span><br><span class="line">		</span><br><span class="line">	e = *(S.top - <span class="number">1</span>);							<span class="comment">//并不破坏栈 </span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line"></span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="comment">//*******************</span></span><br><span class="line"></span><br><span class="line"><span class="function">Status <span class="title">GetTop_Sq</span><span class="params">(SqStack S, SElemType_Sq *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(S.top==S.base)</span><br><span class="line">		<span class="keyword">return</span> ERROR;</span><br><span class="line">		</span><br><span class="line">	*e = *(S.top - <span class="number">1</span>);							<span class="comment">//并不破坏栈 </span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="入栈"> 入栈</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">Push_Sq</span><span class="params">(SqStack &amp;S, SElemType_Sq e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(S.top-S.base&gt;=S.stacksize)		<span class="comment">//栈满，追加存储空间</span></span><br><span class="line">	&#123;</span><br><span class="line">		S.base = (SElemType_Sq *)<span class="built_in">realloc</span>(S.base, (S.stacksize+STACKINCREMENT)*<span class="keyword">sizeof</span>(SElemType_Sq));</span><br><span class="line">		<span class="keyword">if</span>(!S.base)</span><br><span class="line">			<span class="built_in">exit</span>(OVERFLOW);						<span class="comment">//存储分配失败</span></span><br><span class="line">		S.top = S.base + S.stacksize;</span><br><span class="line">		S.stacksize += STACKINCREMENT;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	*(S.top) = e;								<span class="comment">//进栈先赋值，栈顶指针再自增 </span></span><br><span class="line">	(S.top)++;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="comment">//*******************</span></span><br><span class="line"></span><br><span class="line"><span class="function">Status <span class="title">Push_Sq</span><span class="params">(SqStack *S, SElemType_Sq e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>((*S).top-(*S).base&gt;=(*S).stacksize)		<span class="comment">//栈满，追加存储空间</span></span><br><span class="line">	&#123;</span><br><span class="line">		(*S).base = (SElemType_Sq *)<span class="built_in">realloc</span>((*S).base, ((*S).stacksize+STACKINCREMENT)*<span class="keyword">sizeof</span>(SElemType_Sq));</span><br><span class="line">		<span class="keyword">if</span>(!(*S).base)</span><br><span class="line">			<span class="built_in">exit</span>(OVERFLOW);						<span class="comment">//存储分配失败</span></span><br><span class="line">		(*S).top = (*S).base + (*S).stacksize;</span><br><span class="line">		(*S).stacksize += STACKINCREMENT;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	*(S-&gt;top) = e;								<span class="comment">//进栈先赋值，栈顶指针再自增 </span></span><br><span class="line">	(S-&gt;top)++;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="出栈"> 出栈</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">Pop_Sq</span><span class="params">(SqStack &amp;S, SElemType_Sq &amp;e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(S.top==S.base)</span><br><span class="line">		<span class="keyword">return</span> ERROR;</span><br><span class="line"></span><br><span class="line">	S.top--;									<span class="comment">//出栈栈顶指针先递减，再赋值 </span></span><br><span class="line">	e = *(S.top);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="comment">//*******************</span></span><br><span class="line"></span><br><span class="line"><span class="function">Status <span class="title">Pop_Sq</span><span class="params">(SqStack *S, SElemType_Sq *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>((*S).top==(*S).base)</span><br><span class="line">		<span class="keyword">return</span> ERROR;</span><br><span class="line"></span><br><span class="line">	(*S).top--;									<span class="comment">//出栈栈顶指针先递减，再赋值 </span></span><br><span class="line">	*e = *((*S).top);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2><span id="遍历栈中元素"> 遍历栈中元素</span></h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">Status <span class="title">StackTraverse_Sq</span><span class="params">(SqStack S, <span class="keyword">void</span>(Visit)(SElemType_Sq))</span></span></span><br><span class="line"><span class="function"></span>&#123;												<span class="comment">//遍历不应该破坏栈 </span></span><br><span class="line">	SElemType_Sq *p = S.base;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">while</span>(p&lt;S.top)</span><br><span class="line">		Visit(*p++);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/String/" itemprop="url">
-            
-              <span itemprop="name">【数据结构】第四章	串</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T20:48:36+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/Queue/" itemprop="url">
-            
-              <span itemprop="name">【数据结构】第三章	队列</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T20:43:29+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/Stack/" itemprop="url">
-            
-              <span itemprop="name">【数据结构】第三章	栈</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T20:38:27+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/List/" itemprop="url">
-            
-              <span itemprop="name">【数据结构】第二章	线性表</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T20:32:08+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/06/Preface/" itemprop="url">
-            
-              <span itemprop="name">【数据结构】第一章	绪论</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-06T20:21:21+08:00" content="2019-06-06">
-          06-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/数据结构/" rel="tag"># 数据结构</a>
+          
+            <a href="/tags/栈/" rel="tag"># 栈</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/06/List/" rel="next" title="【数据结构】第二章	线性表">
+                <i class="fa fa-chevron-left"></i> 【数据结构】第二章	线性表
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/06/06/Queue/" rel="prev" title="【数据结构】第三章	队列">
+                【数据结构】第三章	队列 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -1056,6 +980,10 @@ show_date_time();
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
+
+
 
   
 
@@ -1071,6 +999,8 @@ show_date_time();
 
   
 
+
+  
 
 
   
