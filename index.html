@@ -721,7 +721,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">14k</span>
+                <span title="本文字数">13k</span>
               
 
               
@@ -735,7 +735,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">13 分钟</span>
+                <span title="阅读时长">12 分钟</span>
               
             </div>
           
@@ -758,22 +758,11 @@
         
           
             <p>
-               目录
-
+              目录
+@[TOC]
+树和二叉树
 二叉树（二叉链表存储）相关类型定义
-
-栈元素类型
-存储当前结点信息，按树结构打印树的时候使用
-
-
-构造空二叉树T (初始化二叉树)
-清空二叉树T
-销毁二叉树T
-判断二叉树T是否为空
-按先序序列构造二叉树_1
-按先序序列构造二叉树_2
-返回二叉树长度（按完全二叉树计算）
-返回二叉树深度（层数
+typedef char TElemType;							//假设二叉树元素均为字符typedef struct BiTNode&#123;	TElemType data;								//结点元素 	struct BiTNod
               ...
             </p>
           <!--noindex-->
@@ -935,7 +924,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">6.4k</span>
+                <span title="本文字数">6.3k</span>
               
 
               
@@ -972,24 +961,13 @@
         
           
             <p>
-               目录
-
+              目录
+@[TOC]
+数组和广义表
 类型定义
+#define MAXSIZE 400							//假设非零元个数的最大值为400
 三元组顺序表(稀疏矩阵)类型定义
-创建n个矩阵
-销毁矩阵
-输出矩阵
-矩阵的复制
-矩阵的加法Q = M + N
-矩阵的减法Q = M - N
-矩阵的乘法Q = M * N
-矩阵转置
-矩阵快速转置
-
-
- 数组和广义表
- 类型定义
-#define MAXSIZE 400							/
+typedef int MElemType_TSq;typedef struct&#123;	int i, j;								//该
               ...
             </p>
           <!--noindex-->
@@ -1151,7 +1129,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">4.2k</span>
+                <span title="本文字数">3.9k</span>
               
 
               
@@ -1188,18 +1166,13 @@
         
           
             <p>
-               目录
-
+              目录
+@[TOC]
+串
 类型定义
+/* 串的堆存储表示 */typedef struct&#123;	char *ch;							//若是非空串，则按串长分配存储区，否则ch为NULL 	int length;&#125;HString;
 初始化S为空串
-生成一个其值等于常量chars的串T
-由串S复制得到串T
-若S为空串，返回TRUE,否则返回FALSE
-若S&gt;T，返回值&gt;0；若S&lt;T，返回值&lt;0；否则，返回值=0
-求串长
-清空串S
-用T返回由S1和S2联接而成的新串
-用Sub返回串S的第
+void InitString_H(HS
               ...
             </p>
           <!--noindex-->
@@ -1361,7 +1334,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">5.6k</span>
+                <span title="本文字数">5.5k</span>
               
 
               
@@ -1398,33 +1371,11 @@
         
           
             <p>
-               目录
-
+              目录
+@[TOC]
+非循环队列
 类型定义
-非循环队列的初始化
-清空队列
-销毁队列
-判断队列是否为空
-计算队列的长度
-得到队头元素
-入队
-出队
-遍历非循环队列
-类型定义
-循环队列初始化
-入队
-出队
-遍历循环队列
-类型定义
-队列初始化
-入队
-出队
-遍历队列
-
-
- 非循环队列
- 类型定义
-typedef int QElemTy
+typedef int QElemType_L;typedef struct QNode				 &#123;	QElemType_L data;	struct QNode *next;&#125;QNode,* QueuePtr;typedef struc
               ...
             </p>
           <!--noindex-->
@@ -1586,7 +1537,7 @@ typedef int QElemTy
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">3.1k</span>
+                <span title="本文字数">3k</span>
               
 
               
@@ -1623,23 +1574,11 @@ typedef int QElemTy
         
           
             <p>
-               目录
-
+              目录
+@[TOC]
+顺序栈
 类型定义
-栈的初始化
-销毁栈
-清空栈
-判断栈是否为空
-计算栈的长度
-得到栈顶元素
-入栈
-出栈
-遍历栈中元素
-
-
- 顺序栈
- 类型定义
-#define STACK_INIT_SIZE	100				//顺序栈存储空间的初始分配量#define STACKINCREMENT	10 				//
+#define STACK_INIT_SIZE	100				//顺序栈存储空间的初始分配量#define STACKINCREMENT	10 				//顺序栈存储空间的分配增量typedef int SElemType_Sq;typedef struct&#
               ...
             </p>
           <!--noindex-->
@@ -1801,7 +1740,7 @@ typedef int QElemTy
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">8.1k</span>
+                <span title="本文字数">7.6k</span>
               
 
               
@@ -1838,21 +1777,11 @@ typedef int QElemTy
         
           
             <p>
-               目录
-
+              目录
+@[TOC]
+顺序线性表（数组）
 类型定义
-初始化顺序线性表
-判断顺序表是否为空
-清空顺序表
-计算顺序表的长度
-用e返回L中第i个数据元素的值
-返回L中第1个与e满足关系的数据元素的位序
-在L中第i个位置之前插入新的数据元素e
-删除L的第i个数据元素，并用e返回其值
-遍历顺序线性表
-合并La、Lb两个顺序线性表
-类型定义
-
+typedef struct&#123;	ElemType data[MAXSIZE];        /* 数组，存储数据元素 */	int length;                                /* 线性表当前长度 */&
               ...
             </p>
           <!--noindex-->
@@ -2063,15 +1992,10 @@ typedef int QElemTy
         
           
             <p>
-               目录
-
-va_start函数
-va_arg函数
-va_end函数
-
-
- 预定义常量和类型
-//函数结果状态代码#define TRUE 1#define FALSE 0#define OK 1#define ERROR 0#define INFEASIBLE -1#define OVERFLOW 
+              目录
+@[TOC]
+预定义常量和类型
+//函数结果状态代码#define TRUE 1#define FALSE 0#define OK 1#define ERROR 0#define INFEASIBLE -1#define OVERFLOW -2//Status是函数的类型，其值是函数结果状态代
               ...
             </p>
           <!--noindex-->
@@ -2245,7 +2169,7 @@ va_end函数
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">5.1k</span>
+                <span title="本文字数">5k</span>
               
 
               
@@ -2285,35 +2209,17 @@ va_end函数
               
 注：本站使用Typora软件编辑
 
- 目录
-
+目录
+@[TOC]
+目录列表
+输入[toc]然后回车，将会产生一个目录，这个目录抽取了文章的所有标题，自动更新内容。
+标题
+使用#表示一级标题，##表示二级标题，以此类推，有6个标题。
+注：# 后面保持空格
+引用
 单行式
-多行式
-多层嵌套
-斜体
-加粗 (强调)
-删除线
-转义
-高亮
-下标
-上标
-插入表情:happy:
-下划线
-水平分割线
-注释
-无序列表
-有序列表
-序表嵌套
-层级列表
-序表嵌套代码块
-任务列表
-行内标记
-代码块
-插入图片
-行内式
-参考式
-自动连接
-锚
+使用 &gt; 来插入块引用。例如：
+&
               ...
             </p>
           <!--noindex-->
@@ -2469,7 +2375,7 @@ va_end函数
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">436</span>
+                <span title="本文字数">431</span>
               
 
               
@@ -2744,7 +2650,7 @@ va_end函数
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">50k</span>
+    <span title="站点总字数">48k</span>
   
 
   
@@ -2753,7 +2659,7 @@ va_end函数
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">46 分钟</span>
+    <span title="站点阅读时长">44 分钟</span>
   
 </div>
 

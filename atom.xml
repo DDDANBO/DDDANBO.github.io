@@ -56,9 +56,10 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt; 目录&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a
+          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;目录&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;@[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;树和二叉树&quot;&gt;树和二叉树&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span
         
       
     
@@ -86,10 +87,11 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt; 目录&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89&quot;&gt;类型定义&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a
+          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;目录&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;@[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;数组和广义表&quot;&gt;数组和广义表&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;类型定义&quot;&gt;类型定义&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;figure
         
       
     
@@ -117,10 +119,11 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt; 目录&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89&quot;&gt;类型定义&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a
+          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;目录&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;@[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;串&quot;&gt;串&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;类型定义&quot;&gt;类型定义&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;figure
         
       
     
@@ -148,10 +151,11 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt; 目录&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89&quot;&gt;类型定义&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a
+          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;目录&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;@[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;非循环队列&quot;&gt;非循环队列&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;类型定义&quot;&gt;类型定义&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;figure
         
       
     
@@ -179,10 +183,11 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt; 目录&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89&quot;&gt;类型定义&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a
+          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;目录&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;@[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;顺序栈&quot;&gt;顺序栈&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;类型定义&quot;&gt;类型定义&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;figure
         
       
     
@@ -210,10 +215,11 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt; 目录&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89&quot;&gt;类型定义&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a
+          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;目录&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;@[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;顺序线性表数组&quot;&gt;顺序线性表（数组）&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;类型定义&quot;&gt;类型定义&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;figure
         
       
     
@@ -241,10 +247,10 @@
       
         
         
-          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt; 目录&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#va_start%E5%87%BD%E6%95%B0&quot;&gt;va_start函数&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a
+          &lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;目录&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;@[TOC]&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;预定义常量和类型&quot;&gt;预定义常量和类型&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
         
       
     
@@ -275,7 +281,7 @@
           &lt;blockquote&gt;
 &lt;p&gt;注：本站使用&lt;a href=&quot;https://typora.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Typora&lt;/a&gt;软件编辑&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1&gt;&lt;span id=&quot;目录&quot;&gt;
+&lt;h1&gt;&lt;span
         
       
     
